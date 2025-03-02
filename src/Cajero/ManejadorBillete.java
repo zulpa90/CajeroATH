@@ -23,4 +23,14 @@ class ManejadorBillete extends IManejador {
             siguiente.dispensar(cantidad);
         }
     }
+
+    public void setm100(ManejadorBillete m50) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setm100'");
+    }
+
+    public void setnext(ManejadorBillete m50) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setnext'");
+    }
 }

@@ -1,5 +1,6 @@
 package Cajero;
 
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese la cantidad a retirar: ");
         int monto = scanner.nextInt();
-        cajero.retirar(monto);
+        cajero.dispensar(monto);
         scanner.close();
     }
 }
