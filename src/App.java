@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-import cajero.CajeroATM;
+import cajero.CajeroATH;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
 
         Scanner input = new Scanner(System.in);
-        System.out.printf("Ingrese el monto a retirar: $");
+        System.out.print("Ingrese el monto a retirar: $");
         int montoRetiro = input.nextInt();
 
-        CajeroATM cajero = new CajeroATM();
-        cajero.realizarTransaccionRetiro( montoRetiro);
+        CajeroATH cajero = new CajeroATH();
+        cajero.realizarTransaccionRetiro(montoRetiro);
     }
 }
